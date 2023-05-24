@@ -15,6 +15,9 @@
 /******** shell.c ********/
 
 int main(int acrg, char **avrg, char **env);
+
+/******** prompt.c ********/
+
 void prompt(void);
 void doornob(int signal_song);
 void _EOF(char *buffer);
