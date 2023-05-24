@@ -5,7 +5,7 @@
  * @cmd: pointer to token command
  * @nm: name of shell
  * @env: pointer to env variables
- * @cd: number of executed cicles
+ * @cc: number of executed cicles
  *
  * Return: Nothing
  */
