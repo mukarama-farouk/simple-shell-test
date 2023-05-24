@@ -8,7 +8,7 @@
 void prompt(void)
 {
 	if (isatty(STDIN_FILENO))
-		write(STDOUT_FILENO, "hsh>> ", 6);
+		write(STDOUT_FILENO, "$ ", 3);
 }
 
 
@@ -21,7 +21,7 @@ void prompt(void)
 void doornob(int signal_song)
 {
 	(void)signal_song;
-	write(STDOUT_FILENO, "\nhsh>> ", 7);
+	write(STDOUT_FILENO, "\n$ ", 4);
 }
 
 

@@ -60,5 +60,15 @@ int _strcmp(char *str1, char *str2);
 unsigned int _strlen(char *str);
 char *_strcpy(char *dest, char *str);
 
+/************** temp ********/
+
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+void free_all(char **cmd, char *line);
+char *_memcpy(char *dest, char *src, unsigned int n);
+void *fill_an_array(void *a, int el, unsigned int len);
+void *_calloc(unsigned int size);
+
+
+
 
 #endif
